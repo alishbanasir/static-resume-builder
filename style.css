@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(https://img.freepik.com/free-vector/blue-white-gradient-abstract-background_53876-60241.jpg?t=st=1730900187~exp=1730903787~hmac=f2fd7db162dda8433fa3c4815b487fb11f10e951f60095de4f9e984b7e3f2d36&w=740);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.form{
+    margin: 2%;
+    color: black;
+max-width: 300%;
+}
+legend{
+   margin-left: 42%;
+}
+
+fieldset{
+    box-shadow: 10px 10px 10px rgb(97, 118, 133);
+    background-image: url(https://img.freepik.com/free-vector/blue-white-gradient-abstract-background_53876-60241.jpg?t=st=1730900187~exp=1730903787~hmac=f2fd7db162dda8433fa3c4815b487fb11f10e951f60095de4f9e984b7e3f2d36&w=740);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: transparent;
+    background-position: center;
+    border: none;
+}
+
+.section1{
+    display: flex;
+    padding: 30px;
+    background: transparent;
+    box-shadow: 15px 2px 15px rgb(97, 118, 133);
+}
+
+.pic>img{
+    margin-top: 5%;
+box-shadow: 10px 10px 10px black;
+border-radius: 0px;
+padding: 0px;
+   
+}
+.pic{
+  padding: 5px;
+}
+
+.pic>h1{
+    margin: 5%;
+    
+}
+.part2{
+    padding: 5px;
+    margin-left: 50px;
+
+}
+.name1:hover{
+    text-decoration: none;
+}
+.name:hover{
+    text-decoration: none;
+}
+.name1{
+    font-size: 18px;
+  margin-top: 5px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: blue;
+}
+.name1:hover{
+    color: brown;
+}
+.detail{
+padding: 10px;
+
+}
+.name{
+    margin-top: 18px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+h1.name{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+@media (max-width:425px) {
+    .name{
+        margin-top: 20px;
+    }
+    h1.name{
+        font-size: 20px;
+    }
+    
+}
+
+
+
+.please{
+    color: blue;
+}
+.please:hover{
+    color: purple;
+}
+
+.con{
+    font-size: 22px;
+    margin-top: 1%; 
+    margin-bottom: 2px;
+}
+.object{
+    margin-top: 3px;
+    font-size: 18px;
+    line-height: 23px;
+}
+.educate{
+    margin-top: 5px;
+    font-size: 18px;
+    line-height: 23px;
+}
+.contactme{
+    margin-top: 1%;
+    font-size: 20px;
+}
+.contactsocial{
+    font-size: 20px;
+    line-height: 25px;
+}
+.git{
+    text-decoration: none;
+    color: black;
+}
+.git:hover{
+    text-decoration: underline;
+}
+
+.btn{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+.btn{
+    background-color: black;
+}
+.btn>button>a{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 5px solid black;
+    padding: 5%;
+}
+.btn>button>a:hover{
+    text-decoration: underline;
+}
+.togglebutton{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: rgb(243, 237, 237);
+    font-size: 15px;
+    font-weight: 700;
+    padding: 3px;
+    background-color: black;
+}
+.fa-facebook{
+    font-size: 23px;
+    margin-left:10px;
+    color: black;
+}
+.fa-facebook:hover{
+    color:rgb(0, 26, 110); ;
+   
+}
+.fa-linkedin{
+    font-size: 23px;
+    margin-left:10px;
+    color: black;
+}
+.fa-linkedin:hover{
+    color:rgb(0, 26, 110); ;
+   
+}
+.fa-brands.fa-github{
+    font-size: 23px;
+    margin-left:10px;
+    color: black;
+}
+.fa-brands.fa-github:hover{
+    color:rgb(0, 26, 110); ;
+}
+@media (max-width:400px) {
+    .pic{
+        flex-direction: column;
+    }
+    
+}
+@media (max-width:400px) {
+    .detail{
+        flex-direction: column;
+       
+    }
+}
